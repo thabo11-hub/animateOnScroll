@@ -626,7 +626,7 @@ html *::after {
 
 #menuToggle {
   display: block;
-  position: relative;
+  position: fixed;
   top: 50px;
   left: 50px;
 

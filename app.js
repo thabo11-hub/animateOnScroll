@@ -1,4 +1,4 @@
-import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
+// import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
@@ -75,3 +75,4 @@ neonCursor({
   sleepTimeCoefX: 0.0025,
   sleepTimeCoefY: 0.0025
 })
+
