@@ -1,3 +1,4 @@
+import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
@@ -59,7 +60,7 @@ window.addEventListener("resize", () => {
   menu.style.setProperty("--timeOut", "none");
 });
 
-import { neonCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js'
+
 
 neonCursor({
   el: document.getElementById('app'),
