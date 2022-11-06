@@ -8,6 +8,9 @@ body {
   margin: 0;
 }
 
+.paragraph{
+    padding-bottom: 13rem;
+}
 section {
   display: grid;
   place-items: center;
