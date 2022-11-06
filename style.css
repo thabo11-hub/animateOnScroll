@@ -721,6 +721,10 @@ html *::after {
  * Make this absolute positioned
  * at the top left of the screen
  */
+.menu1div {
+  position: absolute;
+}
+
 #menu1 {
   position: absolute;
   width: 300px;
