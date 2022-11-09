@@ -91,7 +91,14 @@ function topFunction() {
 //   sleepTimeCoefX: 0.0025,
 //   sleepTimeCoefY: 0.0025,
 // });
+isPrerenderedUA = userAgent.matches(botUserAgents)
+isMobileUA = userAgent.matches(['mobile', 'android'])
 
+
+if (!isPrerenderedUA) {
+} else {
+  servePreRendered(isMobileUA)
+}
 // Init
 var $ = jQuery;
 var animationTime = 20,
